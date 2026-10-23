@@ -1,0 +1,4 @@
+/* Ce sélecteur cible tous les éléments HTML */
+* {
+    box-sizing: border-box;
+}  
