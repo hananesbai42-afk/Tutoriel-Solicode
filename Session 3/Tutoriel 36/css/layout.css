@@ -1,0 +1,152 @@
+
+/* EN-TÊTE ET NAVIGATION */
+.en-tete-site {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.navigation {
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #0f172a;
+    white-space: nowrap;
+}
+
+.logo span {
+    color: #2563eb;
+}
+
+.liens-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.liens-navigation a {
+    color: #475569;
+    font-size: 14px;
+}
+
+.liens-navigation a:hover {
+    color: #2563eb;
+}
+
+/* CATÉGORIES */
+.section-categories {
+    padding: 50px 0 20px;
+}
+
+.section-categories h2 {
+    margin-bottom: 20px;
+}
+
+.liste-categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* ARTICLES */
+.section-articles {
+    padding: 40px 0 80px;
+}
+
+.entete-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.grille-articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 32px;
+}
+
+.grille-articles .carte-article {
+    flex: 1 1 280px;
+    min-width: 0;
+}
+
+/* BANNIÈRE */
+.contenu-banniere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* À PROPOS */
+.section-apropos {
+    padding: 70px 0;
+}
+
+.contenu-apropos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 18px;
+    max-width: 760px;
+}
+
+/* PIED DE PAGE */
+.conteneur-pied-de-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.liens-pied-de-page {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+/* ADAPTATION AUX PETITS ÉCRANS */
+@media (max-width: 700px) {
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .liens-navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .entete-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .conteneur-pied-de-page {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .liens-pied-de-page {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

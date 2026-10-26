@@ -1,0 +1,98 @@
+
+/* Bannière d'accueil */
+
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    background: #ffffff;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+.banniere-accueil h1 {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 56px;
+    line-height: 1.2;
+    color: #0a2042;
+}
+
+.banniere-accueil h1 span {
+    color: #2563eb;
+}
+
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0;
+    font-size: 17px;
+    color: #6b7280;
+}
+
+/* Section des articles */
+
+.section-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 24px;
+}
+
+.section-articles h2 {
+    color: #0a2042;
+}
+
+.article-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+}
+
+.article-detail h1 {
+    color: #0a2042;
+    font-size: 40px;
+}
+
+.article-detail h2 {
+    margin-top: 32px;
+}
+
+.article-category {
+    color: #1c5bba;
+    font-weight: bold;
+}
+
+.article-meta {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+/* Adaptation aux petits écrans */
+
+@media (max-width: 768px) {
+    .banniere-accueil {
+        padding: 60px 20px;
+    }
+
+    .banniere-accueil h1 {
+        font-size: 36px;
+    }
+
+    .banniere-accueil p {
+        font-size: 16px;
+    }
+
+    .article-detail {
+        padding: 20px;
+    }
+
+    .article-detail h1 {
+        font-size: 30px;
+    }
+
+    .en-tete-site nav {
+        gap: 12px;
+    }
+}

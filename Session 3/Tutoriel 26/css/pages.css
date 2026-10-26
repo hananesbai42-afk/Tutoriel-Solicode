@@ -1,0 +1,116 @@
+
+/* ==============================
+   BANNIÈRE D'ACCUEIL
+============================== */
+
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    background: #ffffff;
+
+    /* Fond décoratif en forme de grille */
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+/* Titre principal */
+.banniere-accueil h1 {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 56px;
+    color: #0a2042;
+}
+
+/* Deuxième partie du titre */
+.banniere-accueil h1 span {
+    color: #2563eb;
+}
+
+/* Description */
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #6b7280;
+}
+
+/* ==============================
+   SECTION DES ARTICLES
+============================== */
+
+.section-articles {
+    padding: 60px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-articles h2 {
+    margin-bottom: 32px;
+    color: #0a2042;
+}
+
+.conteneur-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* Cartes des articles */
+.carte-article {
+    box-sizing: border-box;
+    flex: 1 1 280px;
+    min-width: 0;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #ffffff;
+}
+
+.carte-article h3 {
+    color: #0a2042;
+}
+
+.carte-article p {
+    color: #6b7280;
+    line-height: 1.6;
+}
+
+.carte-article a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ==============================
+   PIED DE PAGE
+============================== */
+
+.pied-de-page {
+    padding: 24px;
+    text-align: center;
+    background: #0a2042;
+    color: #ffffff;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+
+@media (max-width: 768px) {
+    .banniere-accueil {
+        padding: 64px 20px;
+    }
+
+    .banniere-accueil h1 {
+        font-size: 36px;
+    }
+
+    .banniere-accueil p {
+        font-size: 16px;
+    }
+
+    .conteneur-articles {
+        flex-direction: column;
+    }
+}

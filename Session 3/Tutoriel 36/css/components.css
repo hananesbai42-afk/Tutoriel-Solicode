@@ -1,0 +1,129 @@
+
+/* BOUTONS */
+.bouton {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bouton-principal {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: 1px solid #2563eb;
+}
+
+.bouton-principal:hover {
+    background-color: #1d4ed8;
+}
+
+.bouton-secondaire {
+    background-color: #ffffff;
+    color: #1d4ed8;
+    border: 1px solid #bfdbfe;
+}
+
+.bouton-secondaire:hover {
+    background-color: #eff6ff;
+}
+
+/* BADGES DES CATÉGORIES */
+.badge-categorie {
+    display: inline-block;
+    padding: 7px 14px;
+    border-radius: 20px;
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* CARTES D'ARTICLES */
+.carte-article {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+}
+
+.carte-article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.09);
+}
+
+.image-article {
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-article span {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.image-html {
+    background-color: #ffedd5;
+    color: #c2410c;
+}
+
+.image-css {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+}
+
+.image-js {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.contenu-carte {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 16px;
+    padding: 24px;
+}
+
+.contenu-carte h3 {
+    font-size: 21px;
+}
+
+.contenu-carte p {
+    font-size: 14px;
+}
+
+.pied-carte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 10px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.pied-carte span {
+    color: #64748b;
+}
+
+.pied-carte a,
+.lien-voir-plus {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.pied-carte a:hover,
+.lien-voir-plus:hover {
+    color: #1e40af;
+}

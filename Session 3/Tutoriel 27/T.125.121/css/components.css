@@ -1,0 +1,84 @@
+
+/* En-tête */
+
+.en-tete-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 18px 5%;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0a2042;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.en-tete-site nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.en-tete-site nav a {
+    color: #374151;
+    text-decoration: none;
+}
+
+.en-tete-site nav a:hover {
+    color: #2563eb;
+}
+
+/* Cartes */
+
+.conteneur-articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.carte-article {
+    flex: 1 1 260px;
+    min-width: 0;
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carte-article h3 {
+    color: #0a2042;
+}
+
+.carte-article p {
+    color: #6b7280;
+}
+
+.carte-article a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Pied de page */
+
+.pied-de-page {
+    padding: 24px;
+    text-align: center;
+    background: #0a2042;
+    color: #ffffff;
+}

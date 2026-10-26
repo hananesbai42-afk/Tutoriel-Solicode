@@ -1,0 +1,22 @@
+/* La carte de l'article */
+.carte-article {
+    width: 300px;
+    background: #f9fafb;
+    border: 2px solid #e5e7eb;
+    margin-bottom: 24px;
+}
+
+/* Le contenu de la carte */
+.carte-contenu {
+    padding: 20px;
+}
+
+/* Le titre */
+.carte-contenu h3 {
+    margin: 0;
+}
+
+/* Le paragraphe */
+.carte-contenu p {
+    margin: 12px 0;
+}

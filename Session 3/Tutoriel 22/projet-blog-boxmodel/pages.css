@@ -1,0 +1,30 @@
+/* 
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.carte-article {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.carte-contenu h3 {
+    color: #1f2937;
+}
+
+.carte-contenu p {
+    color: #4b5563;
+}
+ */
+
+ 
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+}

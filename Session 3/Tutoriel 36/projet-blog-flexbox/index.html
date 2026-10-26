@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon Blog Personnel</title>
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+</head>
+
+<body>
+
+    <!-- EN-TÊTE DU SITE -->
+    <header class="en-tete-site">
+        <div class="conteneur navigation">
+
+            <a href="index.html" class="logo">
+                Mon Blog<span>.</span>
+            </a>
+
+            <nav class="liens-navigation">
+                <a href="index.html">Accueil</a>
+                <a href="#articles">Articles</a>
+                <a href="#categories">Catégories</a>
+                <a href="#apropos">À propos</a>
+            </nav>
+
+            <a href="#articles" class="bouton bouton-principal">
+                Explorer
+            </a>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- BANNIÈRE D'ACCUEIL -->
+        <section class="banniere-accueil">
+            <div class="conteneur contenu-banniere">
+
+                <p class="sous-titre-banniere">
+                    BIENVENUE SUR MON BLOG
+                </p>
+
+                <h1>Des idées pour apprendre et progresser.</h1>
+
+                <p class="description-banniere">
+                    Découvrez des articles, des conseils et des ressources
+                    pour développer vos compétences dans le monde du web.
+                </p>
+
+                <div class="actions-banniere">
+                    <a href="#articles" class="bouton bouton-principal">
+                        Découvrir les articles
+                    </a>
+
+                    <a href="#apropos" class="bouton bouton-secondaire">
+                        En savoir plus
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CATÉGORIES -->
+        <section class="section-categories" id="categories">
+            <div class="conteneur">
+
+                <h2>Explorer les catégories</h2>
+
+                <div class="liste-categories">
+                    <span class="badge-categorie">Tous</span>
+                    <span class="badge-categorie">HTML</span>
+                    <span class="badge-categorie">CSS</span>
+                    <span class="badge-categorie">JavaScript</span>
+                    <span class="badge-categorie">Développement web</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CARTES DES ARTICLES -->
+        <section class="section-articles" id="articles">
+            <div class="conteneur">
+
+                <div class="entete-section">
+                    <div>
+                        <p class="sous-titre-section">LE BLOG</p>
+                        <h2>Nos derniers articles</h2>
+                    </div>
+
+                    <a href="#articles" class="lien-voir-plus">
+                        Voir tous les articles →
+                    </a>
+                </div>
+
+                <div class="grille-articles">
+
+                    <article class="carte-article">
+                        <div class="image-article image-html">
+                            <span>HTML</span>
+                        </div>
+
+                        <div class="contenu-carte">
+                            <span class="badge-categorie">HTML</span>
+
+                            <h3>Les bases du HTML</h3>
+
+                            <p>
+                                Apprenez à structurer une page web avec
+                                les principales balises HTML.
+                            </p>
+
+                            <div class="pied-carte">
+                                <span>5 min de lecture</span>
+                                <a href="#articles">Lire la suite →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="carte-article">
+                        <div class="image-article image-css">
+                            <span>CSS</span>
+                        </div>
+
+                        <div class="contenu-carte">
+                            <span class="badge-categorie">CSS</span>
+
+                            <h3>Maîtriser Flexbox</h3>
+
+                            <p>
+                                Découvrez comment aligner et répartir
+                                les éléments facilement avec Flexbox.
+                            </p>
+
+                            <div class="pied-carte">
+                                <span>7 min de lecture</span>
+                                <a href="#articles">Lire la suite →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="carte-article">
+                        <div class="image-article image-js">
+                            <span>JS</span>
+                        </div>
+
+                        <div class="contenu-carte">
+                            <span class="badge-categorie">JavaScript</span>
+
+                            <h3>Découvrir JavaScript</h3>
+
+                            <p>
+                                Comprenez les bases de JavaScript
+                                pour rendre vos pages web interactives.
+                            </p>
+
+                            <div class="pied-carte">
+                                <span>6 min de lecture</span>
+                                <a href="#articles">Lire la suite →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- À PROPOS -->
+        <section class="section-apropos" id="apropos">
+            <div class="conteneur contenu-apropos">
+                <h2>À propos de ce blog</h2>
+
+                <p>
+                    Ce blog partage des connaissances, des conseils et
+                    des ressources pour apprendre le développement web
+                    étape par étape.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIED DE PAGE -->
+    <footer class="pied-de-page">
+        <div class="conteneur conteneur-pied-de-page">
+
+            <p>© 2026 Mon Blog Personnel. Tous droits réservés.</p>
+
+            <nav class="liens-pied-de-page">
+                <a href="#apropos">À propos</a>
+                <a href="#articles">Articles</a>
+                <a href="mailto:contact@example.com">Contact</a>
+            </nav>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
