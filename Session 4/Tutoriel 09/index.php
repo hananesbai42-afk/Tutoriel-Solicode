@@ -4,7 +4,7 @@ $articles = [
     [
         'id' => 1,
         'titre' => 'Comment structurer ses composants UI avec Atomic Design ?',
-        'contenu' => 'Découvrez les concepts fondamentaux de la méthode Atomic Design et comment organiser vos composants.',
+        'contenu' => 'Découvrez les concepts fondamentaux de la méthode Atomic Design...',
         'image' => 'article-example.png',
         'date_creation' => '2026-02-14',
         'categorie_libelle' => 'Développement',
@@ -13,7 +13,7 @@ $articles = [
     [
         'id' => 2,
         'titre' => 'Maîtriser les micro-interactions UX',
-        'contenu' => 'Une interface belle n\'est pas suffisante, elle doit également offrir une expérience agréable.',
+        'contenu' => 'Une interface belle n\'est pas suffisante...',
         'image' => 'article-example.png',
         'date_creation' => '2026-02-10',
         'categorie_libelle' => 'Design UI/UX',

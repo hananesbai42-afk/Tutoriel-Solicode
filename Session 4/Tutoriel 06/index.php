@@ -1,4 +1,3 @@
-
 <?php
 
 $articles = [
@@ -11,11 +10,10 @@ $articles = [
         'categorie_libelle' => 'Développement',
         'categorie_couleur' => 'bleu'
     ],
-
     [
         'id' => 2,
         'titre' => 'Maîtriser les micro-interactions UX',
-        'contenu' => 'Une interface belle n\'est pas suffisante...',
+        'contenu' => "Une interface belle n'est pas suffisante...",
         'image' => 'article-example.png',
         'date_creation' => '2026-02-10',
         'categorie_libelle' => 'Design UI/UX',
